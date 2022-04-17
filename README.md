@@ -1,7 +1,5 @@
 # MySensors_SI7021
 
-
-
 ## Introduction
 
 This is an attempt to make it easy to resolve a common problem when people first get started with using the 'MySensors Sensebender Micro' board.  A lightweight, custom modified library is referenced and available within the [MySensorsArduinoExamples](/mysensors/MySensorsArduinoExamples) repository but it's not a user friendly method of distributing the library.  This project is my attempt to rectify that.
@@ -64,10 +62,8 @@ That's it, try compiling the code.
 
 ---
 
-## Foot Notes
+## End Notes
 
 [^1]:
     See [adding a library to Library Manager](https://github.com/arduino/library-registry#adding-a-library-to-library-manager)
     See also, [Arduino Library Manager FAW](https://github.com/arduino/library-registry/blob/main/FAQ.md#arduino-library-manager-faq)
-
-The repository must have a Git tag or GitHub release.
