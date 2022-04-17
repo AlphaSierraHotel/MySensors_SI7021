@@ -1,0 +1,12 @@
+si7021_env	KEYWORD1
+SI7021	KEYWORD1
+begin	KEYWORD2
+getCelsiusHundredths	KEYWORD2
+getDeviceId	KEYWORD2
+getFahrenheitHundredths	KEYWORD2
+getHumidityAndTemperature	KEYWORD2
+getHumidityBasisPoints	KEYWORD2
+getHumidityPercent	KEYWORD2
+getSerialBytes	KEYWORD2
+sensorExists	KEYWORD2
+setHeater	KEYWORD2
