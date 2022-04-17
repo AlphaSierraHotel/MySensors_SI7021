@@ -14,15 +14,34 @@ This project is [ready to be sumitted](https://github.com/arduino/library-regist
 
 Until the library is available to add to your project through the Library Manager, you'll need to install it manually.  Here's how to do that.
 
+### Download the Library to Your Libraries Folder
+
+#### For Linux and Mac OS
+
+Open a command terminal and navigate to your Arduino libraries folder.
+
 ```bash
 cd ~/Arduino/libraries
 ```
+
+Use git to download the library to your local system.
 
 ```bash
 git clone https://github.com/AlphaSierraHotel/MySensors_SI7021.git
 ```
 
-Then change the references in the sketches to match the new library name.  Change references of `#include <SI7021.h>` to be `<MySensors_SI7021.h>`.
+#### For Windows Systems
+
+You can use the instructions above for Linux if you have Git for Windows with Git Bash, though the location of your library folder will be different.  Otherwise, use the approach below.
+
+1. Open a browser and navigate to this Github repository (wait- you're already here?).
+2. Click the green `Code` button above the list of files and select `Download ZIP`.
+3. Extract the compressed folder into your Arduino libraries folder.
+4. [Optional] Rename the folder `MySensors_SI7021`.
+
+### Change the Library Reference in Your Code
+
+Then change the references in the sketches to match the new library name.  Change references of `<SI7021.h>` to use `<MySensors_SI7021.h>` instead.
 
 For example, in your code, change this:
 
